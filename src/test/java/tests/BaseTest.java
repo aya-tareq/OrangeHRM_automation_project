@@ -11,16 +11,16 @@ import java.time.Duration;
 
 public class BaseTest {
     protected static WebDriver driver;
-    static String username="Admin";
-    static String password="admin123";
-    static String Fname="Siddharth";
-    static String Sname="Kumar";
-    static String Lname="Chaudhary";
-    static String fromdate="2022-12-02";
-    static String todate="2022-12-31";
-    static String Leaveoption="CAN-FMLA";
-    static String choosenUsername="Siddharth Chaudhary";
-    static String newPassword="Siddharth@123";
+    static public String username="Admin";
+    static public String password="admin123";
+    static public String Fname="Siddharth";
+    static public String Sname="Kumar";
+    static public String Lname="Chaudhary";
+    static public String fromdate="2022-12-02";
+    static public String todate="2022-12-31";
+    static public String Leaveoption="CAN-FMLA";
+    static public String choosenUsername="Siddharth Chaudhary";
+    static public String newPassword="Siddharth@123";
 
 
     @BeforeSuite
